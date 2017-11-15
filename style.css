@@ -1,0 +1,25 @@
+body {
+  font-family:
+}
+
+header {
+  font: 50px black;
+  background-color: gold;
+  text-align: center;
+}
+
+#title,
+#score,
+#targetNumber,
+#win, #lose {
+  font: 25px black;
+}
+
+#instructions  {
+  font: 15px black;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}

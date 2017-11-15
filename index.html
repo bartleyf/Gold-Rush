@@ -2,15 +2,46 @@
 <html>
 <head>
   <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+  <div class="row">
+    <header class="col-lg-3">Gold Rush!!</header>
+  </div>
+  <div class="row">
+    <section class="col-lg-3" id="instructions">
+      <p>You will be given a target weight for your gold collection at the start of the game</p>
+      <p>There are four gold nuggets below. By clicking ona nugget you will add a specific amount of weight to your collection.</p>
+      <p>You win the game by matching your total collection to the target weight. If you exceed your target gold weight, you'll lose.</p>
+      <p>The weight of each nugget is hidden until you click it.</p>
+      <p>Each new game will have new values. </p>
+     </section>
+  </div>
+  <div class="row">
+    <section class="col-lg-2" id="title"> Target Gold Weight: </section>
+    <section class="col-lg-2" id="targetNumber"></section>
+  </div>
+  <div class="row">
+    <section class="col-lg-4" id="images"> </section>
+  </div>
+  <div class="row">
+  <section class="col-lg-2" id="title">Your Score:</section>
+  <section class="col-lg-2" id="score"></section>
+  </div>
+  <div class="row">
+  <section class="col-lg-2" id="title">Wins:</section>
+  <section class="col-lg-2" id="win"></section>
+  </div>
+  <div class="row">
+  <section class="col-lg-2" id="title">Lose:</section>
+  <section class="col-lg-2" id="lose"></section>
+  </div>
 
 </body>
+<script src="game.js"></script>
 </html>
