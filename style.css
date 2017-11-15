@@ -1,7 +1,3 @@
-body {
-  font-family:
-}
-
 header {
   font: 50px black;
   background-color: gold;
@@ -17,9 +13,4 @@ header {
 
 #instructions  {
   font: 15px black;
-}
-
-.image {
-  width: 100px;
-  height: 100px;
 }
